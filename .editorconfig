@@ -1,0 +1,5 @@
+# EditorConfig helps maintain consistent coding styles
+root = true
+
+[Makefile]
+indent_style = tab
