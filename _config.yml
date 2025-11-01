@@ -18,9 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Anderer Title
+title: A Social Scientist's Guide to Statistics
 email: jonas_steinbrenner@web.de
-description: >- # this means to ignore newlines until "baseurl:"
+description: | 
+  Far beyond the uncharted backwaters of the unfashionable end of the Western Spiral arm of the galaxy lies a small unregarded yellow sun. 
+  Orbiting this at a distance of roughly ninety-eight million miles is an utterly insignificant little blue-green planet whose ape-descended life forms are so amazingly primitive that they still think 5-point Likert scales are a pretty neat idea.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://themenwhostareat.codes" # the base hostname & protocol for your site, e.g. http://example.com

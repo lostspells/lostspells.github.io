@@ -21,7 +21,7 @@ y = m * x + b
 
 source = ColumnDataSource(data=dict(x=x, y=y))
 
-p = figure(title="Veränderbare Gerade y = m*x + b", width=700, height=400)
+p = figure(title="Veränderbare Gerade y = m*x + c", width=700, height=400)
 p.line('x', 'y', source=source, line_width=3)
 
 slope_slider = Slider(start=-5, end=5, value=m, step=0.1, title="Steigung (m)")
